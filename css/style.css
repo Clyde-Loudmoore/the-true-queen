@@ -1,0 +1,139 @@
+body{font-family: Tahoma;}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	width: 1140px;
+}
+
+	.header{
+padding-top: 77px;
+padding-bottom: 96px;}
+
+	.header-img{
+		display: inline-block;
+		width: 40%;
+		vertical-align: middle;
+	}
+
+	.header-text{
+		display: inline-block;
+		width: 59%;
+		vertical-align: middle;
+	}
+
+	.header-text__title{
+font-size: 48px;
+line-height: 1.2;
+font-weight: 700;
+color: #000000;
+margin-bottom: 15px;
+	}
+
+.header-text__subtitle{
+font-size: 30px;
+line-height: 1.2;
+font-weight: 400;
+color: #000000;
+margin-bottom: 35px;
+}
+
+.header-text__descr{
+font-size: 18px;
+line-height: 27px;
+font-weight: 400;
+color: #000000;
+max-width: 526px;
+margin-bottom: 47px;
+}
+
+.header-text__price{
+font-size: 48px;
+line-height: 27px;
+font-weight: 400;
+color: #313131;
+margin-bottom: 53px;
+}
+
+.button{
+font-size: 24px;
+font-weight: 700;
+border-radius: 5px;
+background-color: #f15921;
+color: #fff7f4;
+padding: 22px 43px;
+border: none;
+}
+
+.button-o{
+	color: #f15921;
+	background-color:#ffffff;
+	border: 2px solid #f15921;
+	margin-left: 42px;
+}
+
+.section-title{
+font-size: 30px;
+line-height: 27px;
+font-weight: 700;
+color: #333333;
+text-align: center;
+margin-bottom: 87px;
+}
+
+.features{
+padding-top: 90px;
+padding-bottom: 99px;
+background-color: #f2f2f2;
+}
+
+.features-wrap::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.features-blog{
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+
+.features-blog__img{
+	min-height: 50px;
+	margin-bottom: 23px;
+}
+
+.features-blog__text{
+font-size: 18px;
+line-height: 22px;
+font-weight: 400;
+color: #333333;
+}
+
+.container-gray{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1140px;
+}
+
+.footer-title{
+font-size: 30px;
+line-height: 27px;
+font-weight: 700;
+color: #333333;
+text-align: center;
+margin: 90px 0 53px 0;
+}
+
+.end-img{
+width: 253px;
+height: 253px;
+border: 1px solid #ffffff;
+float: left;
+margin: 22px 15px;
+object-fit: cover;
+object-position: center;
+}
